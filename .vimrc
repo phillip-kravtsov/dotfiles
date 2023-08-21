@@ -21,11 +21,9 @@ set showmatch
 map <leader><space> :let @/=''<cr> " clear search
 set listchars=tab:▸\ ,eol:¬
 
-# for vimwiki
 command! Gti execute "normal i[[Incoming]]<ESC><CR>"
 cnoreabbrev gti Gti
 
-# thanks to Chris Bender for these:
 function! SwapDown()
     if line('$') > 1
         let pos = getpos('.')
