@@ -113,4 +113,3 @@ alias vsc='open -a "Visual Studio Code" .'
 
 alias py='python3'
 alias pinst='python3 -m pip install'
-alias ls='sl'
