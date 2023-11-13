@@ -1,4 +1,5 @@
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+chsh -s $(which zsh)
 cp .vimrc ~/.vimrc
 cp .zshrc ~/.zshrc
 git clone https://github.com/scmbreeze/scm_breeze.git ~/.scm_breeze
