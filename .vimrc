@@ -2,7 +2,6 @@ set nocompatible
 set number
 set encoding=utf-8
 set wrap
-set textwidth=99
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
